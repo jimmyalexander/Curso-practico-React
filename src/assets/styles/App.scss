@@ -1,6 +1,16 @@
-body{
+@import './components/Header.scss';
+@import './components/Search.scss';
+@import './components/Categories.scss';
+@import './components/Carousel.scss';
+@import './components//CarouselItem.scss';
+@import './components/Footer.scss';
+
+body {
     margin: 0;
-    background-color: red;
-    color: white;
-    font-weight: bold;
-}
+    font-family: 'Muli', sans-serif;
+    background: #8f57fd;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }

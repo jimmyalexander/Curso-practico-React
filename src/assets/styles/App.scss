@@ -1,3 +1,5 @@
+@import './Vars.scss';
+@import './Media.scss';
 @import './components/Header.scss';
 @import './components/Search.scss';
 @import './components/Categories.scss';
@@ -7,8 +9,8 @@
 
 body {
     margin: 0;
-    font-family: 'Muli', sans-serif;
-    background: #8f57fd;
+    font-family: $theme-font;
+    background: $main-color;
   }
   
   * {
